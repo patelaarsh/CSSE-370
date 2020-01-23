@@ -5,5 +5,7 @@ Test Cases :
 1:C - Check if 3 external links are present
 1:D - Link to another page
 
-Notes:
+Notes :
+
+Basic funtionality of HTML ,including things like external links,adding pictures and header tags
 
