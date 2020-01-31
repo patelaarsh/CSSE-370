@@ -1,0 +1,82 @@
+<style>
+
+
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
+
+.rectangle {
+	width: 60px;
+	height: 60px;
+	background: black;
+	
+}
+.rectangle:hover{
+    background: green;
+}
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: red;
+}
+
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+div p {
+  background-color: yellow;
+}
+
+p:first-child i {
+  color: blue;
+} 
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 500px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: Green;
+}
+
+
+</style>
