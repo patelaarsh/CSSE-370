@@ -1,19 +1,13 @@
 <style>
 
-
-
-/* unvisited link */
 a:link {
   color: green;
 }
 
-
-/* mouse over link */
 a:hover {
   color: red;
 }
 
-/* selected link */
 a:active {
   color: yellow;
 } 
@@ -77,6 +71,5 @@ body {
 .sidenav a:hover {
   color: Green;
 }
-
 
 </style>
