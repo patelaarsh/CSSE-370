@@ -46,30 +46,58 @@ p:first-child i {
 } 
 
 body {
+  margin:0;
   font-family: "Lato", sans-serif;
 }
 
 .sidenav {
-  width: 100px;
-  position: fixed;
-  z-index: 1;
-  top: 500px;
-  left: 10px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+position: fixed;
+height: 100%;
+overflow: auto;
 }
 
 .sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #2196F3;
-  display: block;
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
 }
 
-.sidenav a:hover {
-  color: Green;
+.sidenav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+.sidenav a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+
+div.content {
+margin-left: 200px;
+padding: 1px 16px;
+height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+.sidenav {
+width: 100%;
+height: auto;
+position: relative;
+}
+.sidenav a {float: left;}
+div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+.sidenav a {
+text-align: center;
+float: none;
+}
 }
 
 </style>
