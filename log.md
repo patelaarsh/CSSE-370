@@ -14,7 +14,9 @@ Test Cases :
 4:C - Check that the new element gets deleted when clicked.
 4:D - Test if coordinates are displayed when move hovered over text.
 5:A - Check all accessibility problems are fixed that are identified by ANDI tool for both pages
+6:A - Check if information is pulled from API and user is provided with options.
+6:B - Another call to API is made depending on user selection ,further providing user with information.
 
 Notes :
 
-Basic funtionality of HTML ,including things like external links,adding pictures and header tags.Learned about CSS styling and cretaed a Phase2 page using CSS.Checked for mobile friendly behavior of web pages with some functions related to mobile friendly habits like automatically make sidebar to resize as per screen size.Making of new javascript file and adding functionalities like button and some styling using css like hover.Using ANDI tool to check if the webpage is accessible.
+Basic funtionality of HTML ,including things like external links,adding pictures and header tags.Learned about CSS styling and cretaed a Phase2 page using CSS.Checked for mobile friendly behavior of web pages with some functions related to mobile friendly habits like automatically make sidebar to resize as per screen size.Making of new javascript file and adding functionalities like button and some styling using css like hover.Using ANDI tool to check if the webpage is accessible.Basic use of API to fetch information to provide user with information.To make another calls to API to provide information to user as per his selections.
