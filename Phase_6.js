@@ -1,4 +1,4 @@
-const list = document.getElementById("countries");
+    const list = document.getElementById("countries");
     let countries;    
     let selectedCode;
     list.addEventListener("change", newSelection);
@@ -28,10 +28,7 @@ const list = document.getElementById("countries");
         countries.forEach(country => options += `<option value="${country.alpha3Code}">${country.name}</option>`);
         list.innerHTML = options;
         list.selectedIndex = Math.floor(Math.random() * list.length);
-
         displayCountryInfo(list[list.selectedIndex].value);
-
-
     }
 
     function displayCountryInfo(Alpha3Code) {
@@ -74,9 +71,9 @@ const list = document.getElementById("countries");
  
 
 
-		function Currency(){
-			const countryData = countries.find(country => country.alpha3Code === selectedCode);
-			document.getElementById("currency").innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");
+	function Currency(){
+	const countryData = countries.find(country => country.alpha3Code === selectedCode);
+	document.getElementById("currency").innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");
 	}
 
 
@@ -90,7 +87,6 @@ const list = document.getElementById("countries");
 	.catch(function(err){
 		console.log("Error:", err);
 	});
- 
 
 
 	function Population(){
