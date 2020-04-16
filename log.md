@@ -16,7 +16,8 @@ Test Cases :
 5:A - Check all accessibility problems are fixed that are identified by ANDI tool for both pages
 6:A - Check if information is pulled from API and user is provided with options.
 6:B - Another call to API is made depending on user selection ,further providing user with information.
+7:A - Check for vulnerabilities using OWASP and solve any client-side vulnerability ientified by OWASP
 
 Notes :
 
-Basic funtionality of HTML ,including things like external links,adding pictures and header tags.Learned about CSS styling and cretaed a Phase2 page using CSS.Checked for mobile friendly behavior of web pages with some functions related to mobile friendly habits like automatically make sidebar to resize as per screen size.Making of new javascript file and adding functionalities like button and some styling using css like hover.Using ANDI tool to check if the webpage is accessible.Basic use of API to fetch information to provide user with information.To make another calls to API to provide information to user as per his selections.
+Basic funtionality of HTML ,including things like external links,adding pictures and header tags.Learned about CSS styling and cretaed a Phase2 page using CSS.Checked for mobile friendly behavior of web pages with some functions related to mobile friendly habits like automatically make sidebar to resize as per screen size.Making of new javascript file and adding functionalities like button and some styling using css like hover.Using ANDI tool to check if the webpage is accessible.Basic use of API to fetch information to provide user with information.To make another calls to API to provide information to user as per his selections.Solved 1 vulnerability of timestamp on image ,identified by OWASP.Had to change my image on FirstPage.html file to solve this.
